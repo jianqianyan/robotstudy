@@ -14,6 +14,6 @@ jobs:
     runs-on: ubuntu-latest # 运行环境为最新版的Ubuntu
     steps:
       - name: 'Checkout codes' # 步骤一，获取仓库代码
-        uses: actions/dingding.py
+        uses: actions/dingding
       - name: 'Run baiduPush' # 步骤二，执行sh命令文件
         run: npm install && npm run dingding.py # 运行目录是仓库根目录
